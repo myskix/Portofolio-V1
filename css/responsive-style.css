@@ -1,0 +1,138 @@
+/*Responsive Design*/
+
+@media (max-width: 991px) {
+  .mobile-menu-style {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .mobile-menu-style .nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.75rem 0;
+    color: #222 !important;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+
+  .mobile-menu-style .nav-link::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: var(--primary-color);
+    transition: 0.4s;
+    margin-top: 0.2rem;
+  }
+
+  .mobile-menu-style .nav-link:hover::after,
+  .mobile-menu-style .nav-link.active::after {
+    width: 100%;
+  }
+
+  .mobile-menu-style .nav-link:hover {
+    color: var(--primary-text);
+  }
+}
+
+@media (max-width: 1199.5px) {
+  h1 {
+    font-size: 3.75rem;
+  }
+
+  h2 {
+    font-size: 2.1875rem;
+  }
+
+  h3 {
+    font-size: 1.875rem;
+    line-height: 2.6875rem;
+  }
+
+  h5 {
+    font-size: 1.0625rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .about_wrapper {
+    margin: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  /* 2 Navbar */
+
+  .header-scrolled {
+    height: auto;
+  }
+
+  .header_wrapper .navbar-collapse {
+    margin-top: -0.125rem;
+  }
+
+  .header_wrapper .menu-navbar-nav {
+    text-align: center;
+    background-color: var(--bg-white);
+    padding-bottom: 0.9375rem;
+  }
+
+  .header_wrapper .nav-item .nav-link {
+    margin-top: 0.9375rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* custom css */
+  section {
+    padding: 5rem 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+  }
+
+  h3 {
+    font-size: 1.5625rem;
+    line-height: 2.1875rem;
+  }
+
+  /* about */
+  .about_wrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .skill-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  /* top banner */
+  .banner_wrapper .banner-content h2::after {
+    left: 34%;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    flex-wrap: wrap; /* Jika layar kecil, biarkan kartu turun ke bawah */
+    justify-content: center; /* Rata tengah pada layar kecil */
+  }
+}
