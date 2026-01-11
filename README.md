@@ -26,21 +26,6 @@ Ini adalah proyek website portofolio pribadi yang dirancang untuk menampilkan pr
 | Font Awesome | Ikon modern dan ringan |
 | Bootstrap (opsional) | Grid dan komponen responsif |
 
----
-
-## 📦 Struktur Folder
-Portofolio-V1/
-├── css/
-│   ├── style.css
-│   └── responsive-style.css
-├── js/
-│   └── script.js
-├── images/
-│   └── myself.png, profilx.jpg, dll.
-├── index.html
-├── cv-ats-mrizki.pdf
-└── README.md
-
 
 ---
 
